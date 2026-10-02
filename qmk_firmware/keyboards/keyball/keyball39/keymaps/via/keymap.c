@@ -81,7 +81,7 @@ const uint16_t PROGMEM my_colon[] = {KC_DOT, KC_DOT, COMBO_COLON};
 const unit16_t PROGMEM my_underscore[] = {KC_MINUS, KC_MINUS, COMBO_UNDERSCORE};
 combo_t key_combos[] = {
     COMBO(my_semicolon, KC_SEMICOLON),
-    COMBO(my_colon, KC_colon),
+    COMBO(my_colon, KC_COLON),
     COMBO(my_underscore,KC_UNDERSCORE
 };
 #endif
