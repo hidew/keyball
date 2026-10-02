@@ -71,9 +71,7 @@ void oledkit_render_info_user(void) {
 #endif
 
 // combo setting
-#ifdef COMBO_SEMICOLON
-#ifdef COMBO_COLON
-#ifdef COMBO_UNDERSCORE
+#ifdef COMBO_ENABLE
 
 // ESC
 const uint16_t PROGMEM my_semicolon[] = {KC_DOT, KC_COMMA, COMBO_SEMICOLON};
