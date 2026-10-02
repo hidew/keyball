@@ -78,7 +78,7 @@ const uint16_t PROGMEM my_semicolon[] = {KC_DOT, KC_COMMA, COMBO_END};
 // UP Arrow
 const uint16_t PROGMEM my_colon[] = {KC_DOT, KC_DOT, COMBO_END};
 // equal
-const unit16_t PROGMEM my_underscore[] = {KC_MINUS, KC_MINUS, COMBO_END};
+const uint16_t PROGMEM my_underscore[] = {KC_MINUS, KC_MINUS, COMBO_END};
 combo_t key_combos[] = {
     COMBO(my_semicolon, KC_SEMICOLON),
     COMBO(my_colon, KC_COLON),
