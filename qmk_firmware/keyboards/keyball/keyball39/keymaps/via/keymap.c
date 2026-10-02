@@ -69,3 +69,20 @@ void oledkit_render_info_user(void) {
     keyball_oled_render_layerinfo();
 }
 #endif
+
+// combo setting
+#ifdef COMBO_ENABLE
+
+// ESC
+const uint16_t PROGMEM my_semicolon[] = {KC_DOT, KC_COMMA, COMBO_SEMICOLON};
+// UP Arrow
+const uint16_t PROGMEM my_colon[] = {KC_DOT, KC_DOT, COMBO_COLON};
+// equal
+const unit16_t PROGMEM my_underscore[] = {KC_MINUS, KC_MINUS, COMBO_UNDERSCORE};
+combo_t key_combos[] = {
+    COMBO(my_semicolon, KC_SEMICOLON),
+    COMBO(my_colon, KC_colon),
+    COMBO(my_underscore,KC_UNDERSCORE
+};
+#endif
+
